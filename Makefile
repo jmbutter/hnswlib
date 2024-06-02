@@ -34,6 +34,8 @@ MAKE_BUILD_FLAGS ?= -j$(DEFAULT_JOBS)
 
 .DEFAULT_GLOBAL := build
 
+all: build
+
 build: $(NIF_SO)
 	@echo > /dev/null
 

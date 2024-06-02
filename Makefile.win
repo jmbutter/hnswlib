@@ -33,6 +33,8 @@ CMAKE_HNSWLIB_OPTIONS = ""
 
 CMAKE_BUILD_PARAMETER= --config "$(CMAKE_BUILD_TYPE)"
 
+all: build
+
 build: $(NIF_SO)
 
 $(NIF_SO):
